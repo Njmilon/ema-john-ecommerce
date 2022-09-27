@@ -1,0 +1,28 @@
+.product-container{
+    border: 2px solid rgba(128, 128, 128, 0.366);
+    border-radius: 10px;
+    position: relative;
+}
+.product{
+    padding: 15px;
+    font-family: 'Lato';
+    margin-bottom: 14px;
+}
+.product img{
+    width: 100%;
+    border-radius: 10px;
+}
+.product-btn{
+    width: 100%;
+    background-color: #FFE0B3;
+    height: 38px;
+    border: none;
+    border-top: 2px solid rgba(128, 128, 128, 0.366);
+    border-radius: 0px 0px 8px 8px;
+    position: absolute;
+    bottom: 0;
+    cursor: pointer;
+}
+.product-btn:hover{
+    background-color: rgba(255, 166, 0, 0.561);
+}
